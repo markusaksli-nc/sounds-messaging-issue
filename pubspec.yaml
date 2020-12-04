@@ -1,0 +1,54 @@
+name: triage
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^0.5.2+1
+  firebase_messaging: ^8.0.0-dev.9
+  sounds: ^0.9.3
+
+  intl: ^0.16.0
+  path_provider: ^1.6.1
+  path: ^1.6.4
+  permission_handler: ">=5.0.0 <6.0.0"
+  uuid: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - res/icons/ic_play.png
+    - res/icons/ic_play_disabled.png
+    - res/icons/2.0x/ic_play.png
+    - res/icons/3.0x/ic_play.png
+    - res/icons/ic_stop.png
+    - res/icons/ic_stop_disabled.png
+    - res/icons/2.0x/ic_stop.png
+    - res/icons/3.0x/ic_stop.png
+    - res/icons/ic_pause.png
+    - res/icons/ic_pause_disabled.png
+    - res/icons/2.0x/ic_pause.png
+    - res/icons/3.0x/ic_pause.png
+    - res/icons/ic_mic.png
+    - res/icons/ic_mic_disabled.png
+    - res/icons/2.0x/ic_mic.png
+    - res/icons/3.0x/ic_mic.png
+    - res/icons/ic_volume_down.png
+    - res/icons/2.0x/ic_volume_down.png
+    - res/icons/3.0x/ic_volume_down.png
+    - res/icons/ic_volume_up.png
+    - res/icons/2.0x/ic_volume_up.png
+    - res/icons/3.0x/ic_volume_up.png
+
+    - assets/samples/
+    - assets/canardo.png
+    - assets/

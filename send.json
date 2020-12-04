@@ -1,0 +1,14 @@
+{
+  "notification":{
+    "title": "This is the title",
+    "body": "This is the body",
+    "sound": "default"
+  },
+  "content_available": true,
+  "priority": "high",
+  "data": {
+    "id": 15,
+    "type": "comment"
+  },
+  "to": "fr66vzQgbkBKkDYkIfvxCN:APA91bGrQl7fjTV967HLLcgA0xWhmOq-PWdmzUX_foOKSGYDv2Iz8avUCMPaPy2_MT7Nh21ZtCDetYte92q-8nhm8km6_OqhGIfBHpOLIPv_m3P-yBwfzv4_p9hLMlZem9C0nJS3RURi"
+}
